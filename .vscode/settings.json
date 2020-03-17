@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c",
+        "*.sh": "shellscript",
+        "*.lua": "lua",
+        "*.go": "go",
+        "scrun.C": "cpp",
+        "sc_affair.C": "cpp"
+    },
+    "files.encoding": "utf8",
+    "files.exclude": {
+        "**/.git": true,
+        "**/book/book": true,
+        "**/.DS_Store": true,
+        "**/vendor": true,
+        "**/*.log": true,
+        "**/pkg/obj": true
+    }
+}

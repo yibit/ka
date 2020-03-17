@@ -1,0 +1,14 @@
+kind: pipeline
+name: zeta
+
+workspace:
+  base: /go
+  path: zeta
+steps:
+- name: build
+  image: golang:latest
+  commands:
+    - make prepare
+    - make build
+    - make check
+    - make cov
