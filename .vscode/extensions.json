@@ -1,0 +1,33 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": [
+
+    // Gitlens for Git
+    "eamodio.gitlens",
+
+    // Githistory for Git
+    "donjayamanne.githistory",
+
+    // Language-julia for Julia
+    "julialang.language-julia",
+
+    // Golang for Golang
+    "golang.go",
+
+    // Emmylua for Lua
+    "tangzx.emmylua",
+
+    // Vscode-drawio for Drawio
+    "hediet.vscode-drawio",
+
+    // Ms-python for Python
+    "ms-python.python",
+
+    // Rest-client for REST-TESTING
+    "humao.rest-client",
+
+    // Markdown-all-in-one for Markdown
+    "yzhang.markdown-all-in-one"
+  ]
+}

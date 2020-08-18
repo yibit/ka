@@ -1,7 +1,6 @@
 Name
 ==========
-
-zeta, a dialect of Scheme extended to support concurrent programming.
+ka
 
 Building
 ==========

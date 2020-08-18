@@ -2,7 +2,6 @@ zeta.svg
 coverage.*
 dist
 data/*.db
-doc/themes/hugo-apex-theme
 bin/zeta
 go.sum
 vendor
