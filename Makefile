@@ -27,8 +27,11 @@ run:
 serve:
 	hugo server --enableGitInfo --watch --source doc
 
-status:
-	git status
+build:
+	@cd ka && julia main.jl
+
+deps:
+	cd tools && julia deps.jl
 
 image:
 	docker build -f Dockerfile -t $(NAME)-$(VERSION) .
