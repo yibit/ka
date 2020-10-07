@@ -5,6 +5,7 @@ data/*.db
 bin/zeta
 go.sum
 vendor
+.ipynb_*
 .DS_Store
 *.log
 trace.*

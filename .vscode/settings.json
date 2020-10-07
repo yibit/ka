@@ -5,10 +5,12 @@
         "*.sh": "shellscript",
         "*.lua": "lua",
         "*.go": "go",
+        "*.jl": "julia"
     },
     "files.encoding": "utf8",
     "files.exclude": {
         "**/.git": true,
+        "**/.ipynb_*": true,
         "**/book/book": true,
         "**/.DS_Store": true,
         "**/vendor": true,

@@ -30,6 +30,9 @@ serve:
 build:
 	@cd ka && julia main.jl
 
+jupyterlab:
+	@cd jupyter && jupyter lab
+
 deps:
 	cd tools && julia deps.jl
 
