@@ -1,5 +1,8 @@
 using Pkg
 
+# Update
+Pkg.update()
+
 # Basic
 Pkg.add("Test")
 
@@ -18,6 +21,7 @@ Pkg.add("Gadfly")
 
 # Julia kernel for Jupyter
 Pkg.add("IJulia")
+Pkg.add("Pluto")
 
 # Math
 Pkg.add("LinearAlgebra")
@@ -57,5 +61,3 @@ Pkg.add("Interact")
 # https://github.com/JuliaGraphics/Colors.jl
 Pkg.add("Colors")
 
-# Update
-Pkg.update()

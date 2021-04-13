@@ -1,6 +1,6 @@
-VERSION := $(shell cat ./VERSION |awk 'NR==1 { print $1; }')
 NAME := ka
 MYHOME := $(PWD)
+VERSION := $(shell cat ./VERSION |awk 'NR==1 { print $1; }')
 
 all: usage
 
@@ -30,11 +30,11 @@ serve:
 build:
 	@cd ka && julia main.jl
 
-jupyterlab:
+jupyter:
 	@cd jupyter && jupyter lab
 
 deps:
-	cd tools && julia deps.jl
+	julia tools/deps.jl
 
 image:
 	docker build -f Dockerfile -t $(NAME)-$(VERSION) .
@@ -48,7 +48,7 @@ compose:
 compose-stop:
 	docker-compose stop
 
-.PHONE: clean check distclean fmt docker test release
+.PHONY: clean check distclean jupyter fmt docker test release
 
 clean:
 	rm -f $(NAME).svg $(NAME).png $(NAME)/coverage.* trace.out dive.log

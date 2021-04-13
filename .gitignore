@@ -1,4 +1,4 @@
-zeta.svg
+*.svg
 coverage.*
 dist
 data/*.db
