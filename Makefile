@@ -1,6 +1,6 @@
-NAME := ka
-MYHOME := $(PWD)
-VERSION := $(shell cat ./VERSION |awk 'NR==1 { print $1; }')
+NAME = ka
+MYHOME = $(PWD)
+VERSION = $(shell cat ./VERSION |awk 'NR==1 { print $1; }')
 
 all: usage
 
@@ -28,7 +28,7 @@ serve:
 	hugo server --enableGitInfo --watch --source doc
 
 build:
-	@cd ka && julia main.jl
+	sh tools/julia_build.sh $(NAME)
 
 jupyter:
 	@cd jupyter && jupyter lab

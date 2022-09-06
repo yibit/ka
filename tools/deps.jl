@@ -39,7 +39,7 @@ Pkg.add("TestImages")
 # https://github.com/FluxML/Flux.jl
 Pkg.add("Flux")
 # https://github.com/denizyuret/Knet.jl
-Pkg.add("Knet")
+#Pkg.add("Knet")
 # https://github.com/bensadeghi/DecisionTree.jl
 Pkg.add("DecisionTree")
 # https://github.com/JuliaML/LIBSVM.jl
@@ -57,7 +57,6 @@ Pkg.add("Debugger")
 
 # Tools
 # https://github.com/JuliaGizmos/Interact.jl
-Pkg.add("Interact")
+#Pkg.add("Interact")
 # https://github.com/JuliaGraphics/Colors.jl
 Pkg.add("Colors")
-
